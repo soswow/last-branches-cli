@@ -1,6 +1,6 @@
 {
   "name": "last-branches-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interactive CLI to list recent git branches and checkout selected one",
   "bin": {
     "last-branches": "bin/last-branches.js"

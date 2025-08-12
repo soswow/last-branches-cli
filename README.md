@@ -1,8 +1,8 @@
 # last-branches
 
-Interactive CLI to list your most recent local git branches and checkout the one you pick.
+![last-branches demo](docs/demo.gif)
 
-
+Super simple interactive CLI to list your most recent local git branches and checkout the one you pick.
 
 ## Install
 
