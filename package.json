@@ -1,6 +1,6 @@
 {
   "name": "last-branches-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Interactive CLI to list recent git branches and checkout selected one",
   "bin": {
     "last-branches": "bin/last-branches.js"
@@ -24,9 +24,9 @@
   "author": "Aleksandr Motsjonov",
   "repository": {
     "type": "git",
-    "url": "https://github.com/motsjonov/last-branches-cli"
+    "url": "https://github.com/soswow/last-branches-cli"
   },
-  "homepage": "https://github.com/motsjonov/last-branches-cli",
+  "homepage": "https://github.com/soswow/last-branches-cli",
   "scripts": {
     "start": "node bin/last-branches.js"
   },
