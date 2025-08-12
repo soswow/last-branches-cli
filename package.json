@@ -1,0 +1,38 @@
+{
+  "name": "last-branches-cli",
+  "version": "0.1.0",
+  "description": "Interactive CLI to list recent git branches and checkout selected one",
+  "bin": {
+    "last-branches": "bin/last-branches.js"
+  },
+  "type": "commonjs",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "branches",
+    "checkout",
+    "interactive"
+  ],
+  "author": "Aleksandr Motsjonov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motsjonov/last-branches-cli"
+  },
+  "homepage": "https://github.com/motsjonov/last-branches-cli",
+  "scripts": {
+    "start": "node bin/last-branches.js"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "enquirer": "^2.4.1"
+  }
+}
+
