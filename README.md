@@ -76,13 +76,13 @@ This can be useful in a dotfiles configuration folder with an alias that execute
 
 Most Node installs expose the global bin directory on your `PATH`. If `last-branches` is not found after a global install:
 
-1. Find the global bin directory:
+1) Find the global bin directory:
 
 ```bash
 npm bin -g
 ```
 
-2. Add it to your shell profile:
+2) Add it to your shell profile:
 
 - zsh (`~/.zshrc`):
 
