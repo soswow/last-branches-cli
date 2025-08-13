@@ -60,6 +60,18 @@ last-branches -n 100
 - Node.js >= 16
 - A git repository (local branches are listed)
 
+## Build into a single Javascript file to be executed without `node_modules`
+
+Run the following command:
+
+```bash
+npm run build
+```
+
+This will compile the Javascript source code with dev dependencies in `node_modules`. This will allow you to execute the Javascript file in a separate directly without `node_modules` or global dependencies present.
+
+This can be useful in a dotfiles configuration folder with an alias that executes the Javascript file with node.
+
 ## Troubleshooting: command not found
 
 Most Node installs expose the global bin directory on your `PATH`. If `last-branches` is not found after a global install:
